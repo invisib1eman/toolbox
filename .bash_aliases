@@ -27,3 +27,12 @@ alias nas="sshpass -p ZXsmtdbq4011! ssh admin@24.12.193.22"
 alias mount_nas='sshfs admin@24.12.193.22:/root /Users/doggy/nas_mount'
 alias unmount_nas='umount -f /Users/doggy/nas_mount'
 
+#some quest aliases
+alias main="cd /projects/b1021/Dingwen"
+alias gel="cd /projects/b1021/Dingwen/Polyelectrolyte_gel/Gel"
+alias bashrc="vi /home/dqu7337/.bashrc"
+alias task="squeue -u dqu7337"
+alias b1021="bash /projects/b1021/quest_tools/checkqueue.sh b1021"
+alias b1164="bash /projects/b1021/quest_tools/checkqueue.sh b1164"
+alias inter="ln -s /projects/b1021 ~/b1021"
+
